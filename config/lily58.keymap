@@ -46,11 +46,11 @@
 
         graphite {
             bindings = <
-&trans  &trans    &trans  &trans  &trans  &trans                    &trans  &trans  &trans     &trans   &trans    &trans
-&trans  &kp SEMI  &kp L   &kp D   &kp C   &kp V                     &kp Z   &kp Y   &kp O      &kp U    &kp SQT   &trans
-&trans  &kp N     &kp R   &kp T   &kp S   &kp G                     &kp P   &kp H   &kp A      &kp E    &kp I     &kp Q
-&trans  &kp B     &kp X   &kp M   &kp W   &kp J   &trans    &trans  &kp K   &kp F   &kp COMMA  &kp DOT  &kp FSLH  &trans
-                          &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans             &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &mt SEMICOLON ESC  &kp L   &kp D   &kp C   &kp V                     &kp Z   &kp Y   &kp O   &kp U   &kp SQT  &trans
+&trans  &kp N              &kp R   &kp T   &kp S   &kp G                     &kp P   &kp H   &kp A   &kp E   &kp I    &kp Q
+&trans  &kp B              &kp X   &kp M   &kp W   &kp J   &trans    &trans  &kp K   &kp F   &trans  &trans  &trans   &trans
+                                   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
 
